@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Faux Column CSS Layouts - 2 Column - faux-5-2-col</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" id="web-developer-style-information-styles" href="chrome://web-developer/content/toolbar/style-sheets/element-ancestors.css"><style xml:base="/sites/Sites_e_Projetos/ci_test/assets/css/faux-5-2-col/" class="web-developer-edit-css-styles" id="web-developer-edit-css-styles-0">/*
+      Created by Keith Donegan of Code-Sucks.com
+	  
+	  E-Mail: Keithdonegan@gmail.com
+	  
+	  You can do whatever you want with these layouts,
+	  but it would be greatly appreciated if you gave a link
+	  back to http://www.code-sucks.com
+	  
+*/
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+  background:url('../../images/bg-repeat.jpg');
+}
+#wrapper { 
+ margin: 0 auto;
+ width: 922px;
+}
+#faux {
+ background: url(faux-3-2-col.gif);
+ margin-bottom: 0px;
+ overflow: auto; /* Paul O Brien Fix for IE www.pmob.co.uk */
+ width: 100%
+}
+#header {
+ color: #333;
+ width: 902px;
+ padding: 10px;
+ height: 100px;
+ margin: 10px 0px 0px 0px;
+ background: #D1DBDB;
+ font-family: 'Audiowide', cursive;
+ font-size:24px;
+}
+#navigation {
+ color: #333;
+ padding: 10px;
+ margin: 0px 0px 0px 0px;
+ background: #ABBEBE;
+}
+#leftcolumn { 
+ display: inline;
+ color: #333;
+ margin: 10px;
+ padding: 0px;
+ width: 195px;
+ float: left;
+}
+#rightcolumn { 
+ float: right;
+ color: #333;
+ margin: 10px;
+ padding: 0px;
+ width: 683px;
+ display: inline;
+ position: relative;
+}
+#footer { 
+ width: 902px;
+ clear: both;
+ color: #333;
+ background: #ABBEBE;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
+}
+.clear { clear: both; background: none; }</style><base href="http://127.0.0.1/sites/Sites_e_Projetos/ci_test/assets/css/faux-5-2-col/index.html"></head>
+
+<body>
+
+   <!-- Begin Wrapper -->
+   <div id="wrapper">
+   
+         <!-- Begin Header -->
+         <div id="header">
+		 
+           <p>WebEcard</p><p> WEBECARD		</p> 
+			   
+		 </div>
+		 <!-- End Header -->
+		 
+		 <!-- Begin Navigation -->
+         <div id="navigation">
+		 
+		       This is the Navigation		 
+			   
+		 </div>
+		 <!-- End Navigation -->
+		 
+         <!-- Begin Faux Columns -->
+		 <div id="faux">
+		 
+		       <!-- Begin Left Column -->
+		       <div id="leftcolumn">
+		 
+		             
+		 
+		       </div>
+		       <!-- End Left Column -->
+		 
+		       <!-- Begin Right Column -->
+		       <div id="rightcolumn">
+		       
+	                 <a href="#">Download this CSS Layout</a>
+					 
+					 <br><br>
+					 
+					 <h1>Faux Column CSS Layouts</h1>	 
+					 
+				     <p>
+					 
+					       These 2 Column Faux CSS Layouts use a background image to make it look like the 
+						   left and right columns are equal in height and independent of each other.
+						   
+						   <br>
+						   <br>
+						   
+						   Things couldn't be further from the truth. I created a parent column called faux
+						   and vertically tiled the image, that contained both the left and right child columns. 
+						   I then vertically tiled the faux background image and viola. 
+						   
+						   <br>
+						   <br>
+						   
+					       I first found about this method from the <a href="http://www.alistapart.com">
+				           alistapart site</a> by a guy called <a href="http://simplebits.com/">Dan Cederholm</a>				   
+						   
+					  </p>
+		       
+			   <div class="clear"></div>
+			   
+		       </div>
+		       <!-- End Right Column -->
+			   
+			   <div class="clear"></div>
+			   
+         </div>	   
+         <!-- End Faux Columns --> 
+
+         <!-- Begin Footer -->
+         <div id="footer">
+		       
+               This is the Footer		
+
+         </div>
+		 <!-- End Footer -->
+		 
+   </div>
+   <!-- End Wrapper -->
+
+
+
+</body></html>

@@ -1,0 +1,668 @@
+/*
+      Created by Keith Donegan of Code-Sucks.com
+	  
+	  E-Mail: Keithdonegan@gmail.com
+	  
+	  You can do whatever you want with these layouts,
+	  but it would be greatly appreciated if you gave a link
+	  back to http://www.code-sucks.com
+	  
+*/
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600);
+* { padding: 0; margin: 0; }
+
+
+
+body {
+ font-family: "Trebuchet MS", Helvetica, sans-serif;
+ /*font-family: 'Titillium Web', sans-serif;*/
+ font-size: 13px;
+background:#e8e8e8;
+  color:#5f5f5f;
+
+}
+h3 {
+color:#5f5f5f;
+  font-weight:bold;
+}
+a {
+color:#5f5f5f;
+}
+a:hover {
+color:#999;
+}
+
+table, td, th {
+padding:3px;
+  border:1px solid #f8f8da;
+  background:lightyellow;
+}
+textarea, input {
+color:#555555;
+}
+
+#wrapper { 
+ margin: 0 auto;
+ width: 922px;
+border-left:5px solid lightgray;
+ border-right:5px solid lightgray;
+ background:#ffffff;
+}
+
+#header {
+ color: #333;
+ width: 902px;
+ padding: 10px;
+ height: 100px;
+ margin: 0px 0px 0px 0px;
+
+
+}
+#logo {
+ font-family: 'Audiowide', cursive;
+ font-size:32px;
+  float:left;
+  margin:10px 0 0 0;
+}
+.logorede {
+ font-size:20px;
+}
+#logged {
+float:right;
+   margin: 8px 0;
+}
+
+#notlogged {
+float:right;
+   margin:0;
+}
+
+#menu1{
+ 
+margin-top:8px;
+  float:right;
+}
+
+#menu1 .underlinemenu{
+width: 100%;
+ font-family: 'Titillium Web', sans-serif;
+ /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
+font-size:16px;
+font-weight:600;
+}
+
+#menu1 .underlinemenu ul{
+padding: 6px 0 7px 0; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
+margin: 0;
+text-align: right; /*set value to "left", "center", or "right"*/
+}
+
+#menu1 .underlinemenu ul li{
+display: inline;
+}
+
+#menu1 .underlinemenu ul li a {
+color: #5f5f5f; /* cor do texto */
+-webkit-text-stroke-width: 0.2px;
+-webkit-text-stroke-color: #5f5f5f;
+-webkit-text-fill-color: #5f5f5f;
+
+padding: 2px 3px 1px 3px; /*top padding is 6px, bottom padding is 4px*/
+margin-right: 20px; /*spacing between each menu link*/
+text-decoration: none;
+border-bottom: 2px solid transparent; /*bottom border is 3px*/
+border-radius:10px;
+}
+
+#menu1 .underlinemenu ul li a:hover, #menu1 .underlinemenu ul li a.selected{	
+border-bottom-color: transparent;
+background-color:orange;
+
+color:#FFF;
+-webkit-text-stroke-width: 0.2px;
+-webkit-text-stroke-color: #FFF;
+-webkit-text-fill-color: #FFF;
+}
+
+#lang {
+  float:right;
+  margin:4px 20px 0 0;
+
+}
+
+#menu3 {
+  clear:right;
+margin-top:8px;
+margin-right:130px;  
+float:right;
+}
+
+#menu3 .underlinemenu{
+width: 100%;
+ /*font-family: 'Titillium Web', sans-serif;*/
+font-size:13px;
+
+}
+
+#menu3 .underlinemenu ul{
+margin: 0;
+text-align: right; /*set value to "left", "center", or "right"*/
+}
+
+#menu3 .underlinemenu ul li{
+display: inline;
+}
+
+#menu3 .underlinemenu ul li a{
+color: #5f5f5f; /* cor do texto */
+  padding: 2px 9px 2px 9px; /*top padding is 6px, bottom padding is 4px*/
+margin-right: 1px; /*spacing between each menu link*/
+text-decoration: none;
+border-radius:10px;
+}
+
+#menu3 .underlinemenu ul li a:hover, #menu3 .underlinemenu ul li a.selected{	
+border-bottom-color: transparent;
+background-color:#ededed;
+color:black;
+}
+/* home */
+#flash {
+  
+
+}
+
+/* meus ecards */
+
+#menu2{
+  clear:both;
+
+  float:left;
+   margin: 0px 0px 0px 0px;
+ background: black;
+width:922px;
+}
+
+#menu2 .underlinemenu{
+float:left;
+/*width:49%;*/
+font-family: Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight:bold;
+}
+
+#menu2 .underlinemenu ul{ 
+padding: 9px 0 9px 0; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+#menu2 .underlinemenu ul li{
+display: inline;
+}
+
+#menu2 .underlinemenu ul li a{
+color: #FFFFFF; /* cor do texto */
+padding: 4px 3px 4px 3px; /*top padding is 6px, bottom padding is 4px*/
+margin-left: 30px; /*spacing between each menu link*/
+text-decoration: none;
+  border-radius:7px;
+ /*bottom border is 3px*/
+}
+
+#menu2 .underlinemenu ul li a:hover, #menu2 .underlinemenu ul li a.selected{	
+
+background-color:orange;
+color:white;
+}
+
+
+
+#menu2 .underlinemenu2{
+float:right;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight:bold;
+ 
+}
+
+#menu2 .underlinemenu2 ul{ 
+padding: 9px 10px 9px 0; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
+margin: 0;
+text-align: right; /*set value to "left", "center", or "right"*/
+}
+
+#menu2 .underlinemenu2 ul li{
+display: inline;
+}
+
+#menu2 .underlinemenu2 ul li a{
+color:white; /* cor do texto */
+padding: 4px 3px 4px 3px; /*top padding is 6px, bottom padding is 4px*/
+margin-left: 30px; /*spacing between each menu link*/
+text-decoration: none;
+  background:#4f4f4e;
+  border-radius:7px;
+ /*bottom border is 3px*/
+}
+
+#menu2 .underlinemenu2 ul li a:hover, #menu2 .underlinemenu2 ul li a.selected{	
+
+background-color:orange;
+color:white;
+}
+
+
+
+
+#faux {
+
+ margin-bottom: 0px;
+ overflow: auto; /* Paul O Brien Fix for IE www.pmob.co.uk */
+ width: 100%;
+  height:400px;
+
+}
+#ecards_title {
+  text-align:center;
+margin:20px auto;
+ width: 100%;
+  color:orange;
+  background:lightyellow;
+  
+
+ 
+  font-size:10px;
+  
+}
+
+#ecard_left {
+width:444px;
+height:146px;
+margin:0 0 40px 60px;
+float:left;
+ 
+border-bottom:3px solid black;
+   border-radius:20px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+
+#ecard_left_send {
+width:444px;
+height:146px;
+
+margin:0 auto;
+  text-align:center;
+ 
+border-bottom:3px solid black;
+   border-radius:20px;
+  font-family: Verdana, Geneva, sans-serif;
+  
+
+}
+#send_ecard_form { 
+  width:400px;
+margin:35px auto;
+  text-align:center;
+  
+
+}
+#send_ecard_form_in { 
+
+  text-align:left;
+}
+
+.id_ecard {
+float:right;
+
+color:white;
+  font-size:9px;
+    font-weight:bold;
+    margin-top:135px;
+     margin-right:40px;
+  background:black;
+      padding:4px; border-radius:7px;
+}
+.ecard {
+
+float:right;
+color:orange;
+  background:black;
+  font-size:15px;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing:1px;
+    font-weight:bold;
+    margin-top:133px;
+    margin-right:20px;
+    padding:2px; border-radius:7px;
+}  
+.sorteio_data {
+
+float:right;
+color:white;
+  background:black;
+  font-size:9px;
+    font-weight:bold;
+    margin-top:135px;
+      margin-right:20px;
+  padding:4px; border-radius:7px;
+}  
+.sorteio_data span.sorteio_data_cor {
+color:#ffa200;
+}
+#ecards_print {
+   float:left;
+ margin:5px 0 0 5px;
+  height:127px;
+  width:32px;
+  
+}
+#ecards_status {
+
+  float:left;
+  width:200px;
+  height:127px;
+ line-height:200%;
+  color:#5f5f5f;
+  margin-bottom:40px;
+
+
+  padding:10px;
+  text-align:right;
+  background:#fdf6e2;
+  border-radius:10px;
+}
+.status_color {
+color:orange;
+  font-weight:bold;
+}
+
+#ecards_msg {
+margin:0 auto 10px;
+  text-align:center;
+}
+#multi_rede {
+margin:0 auto 10px;
+  text-align:center;
+}
+#dates_form {
+margin:35px auto;
+  text-align:center;
+
+}
+
+#novo_ecard_left {
+float:left;
+   text-align:center;
+margin-left:20px;
+line-height:150%;
+
+}
+#novo_ecard_right {
+float:right;
+  text-align:center;
+width:400px;
+  line-height:150%;
+    margin:0 20px 0 0;
+
+}
+#novo_ecard_data {
+float:right;
+  width:400px;
+    margin:15px 10px 0 0;
+ 
+}
+
+#novo_ecard_right .design {
+float:left;
+  padding:10px;
+
+}
+
+#novo_ecard_msg {
+clear:both;
+margin:20px auto;
+  padding:20px;
+  text-align:center;
+}
+
+
+
+#tb_ctrl_pontos {
+margin:0 auto;
+}
+
+#t_saque_form {
+margin:10px auto;
+  
+
+}
+
+#t_saque {
+margin:40px auto;
+
+}
+#meu_link {
+  text-align:center; 
+
+}
+#meu_link a {
+  color:orange;
+}
+#minha_left {
+width:250px;
+  float:left;
+  margin:30px 0 0 20px;
+  text-align:justify;
+  line-height:150%;
+ 
+}
+#minha_right {
+width:600px;
+  line-height:150%;
+  height:310px;
+  float:right;
+  margin:30px 20px 0 0;
+  overflow:auto;
+ 
+}
+
+#minha_right h3 {
+  
+text-align:center; 
+  background:#ededed;
+  
+}
+
+#mylogin {
+width:300px;
+  margin:0 auto;
+}
+#criarconta {
+width:500px;
+  margin:0 auto;
+  
+}
+.ult_res_home {
+color:#5f5f5f;
+    background:#ededed; 
+    padding:3px;
+    text-align:center;
+    font-size:17px;
+}
+
+#leftcolumn { 
+ display: inline;
+ color: #333;
+ margin: 10px;
+ padding: 0px;
+ width: 510px;
+ float: left;
+ overflow: auto;
+height:370px;
+
+}
+.t_home td, .t_home th { 
+vertical-align:top;
+text-align:center;
+padding:3px;
+border:1px solid black;
+border-collapse:collapse;
+}
+.t_signup td, .t_signup th {  
+vertical-align:top;
+text-align:left;
+padding:6px;
+
+border-collapse:collapse;
+}
+.t_signup  {  
+border:0;
+  margin:10px auto;
+  margin-bottom:30px;
+   
+}
+td.form_right {
+text-align:right;
+}
+.aste {
+color:darkred;
+  font-size:22px;
+  vertical-align:top;
+}
+.opci {
+color:darkred;
+font-style:italic;
+}
+#rightcolumn { 
+ display: inline;
+ position: relative;
+ color: #333;
+ margin: 10px 10px 10px 0px;
+ padding: 0px;
+ width: 360px;
+ float: right;
+
+}
+
+
+#form_busca {
+  width:400px;
+  text-align:center;
+  padding:10px;
+margin:10px auto 10px;
+
+}
+
+#res_busca {
+  width:400px;
+  text-align:center;
+  padding:10px;
+margin:10px auto 10px;
+
+}
+#creditos_process {
+  
+  text-align:center;
+}
+
+#ctrl_creditos {
+  
+  width:600px;
+  margin:0 auto;
+}
+#pagination {
+background:#ededed;
+  font-size:15px;
+
+  padding:3px;
+  margin:10px auto;
+  text-align:center;
+}
+#muda_dados {
+text-align:center;
+margin:0 auto 50px;
+
+}
+
+
+
+#ult_res {
+
+margin:10px 0 0 30px;
+
+}
+
+#salvar {
+text-align:right;
+  margin-right:200px;
+  margin-bottom:10px;
+   margin-top:-10px;
+}
+
+#tb_pdf {
+  margin:0 auto;
+  border:0;
+  text-align:center;
+}
+
+#tb_pdf td {
+padding:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+border:1px solid lightgray;
+  
+}
+#f_float {
+float:left;
+  margin:67px 0 0 30px;
+  font-weight:bold;
+}
+#f_float_l {
+float:left;
+  margin:53px 0 0 110px;
+}
+#f_float_logo {
+float:left;
+  margin:55px 0 0 30px;
+  font-family: 'Audiowide', cursive;
+ font-size:24px; 
+  
+}
+#contato {
+width:400px;
+  margin:0 auto;
+  text-align:center;
+ 
+}
+#company { 
+width:800px;
+  margin:0 auto;
+  text-align:justify;
+ 
+}
+
+#como_img {
+  
+  margin:0 5px 35px 110px;
+float:left;
+}
+#como {
+  width:500px;
+float:left;
+  margin:0 0 15px 0;
+}
+
+
+#footer { 
+ width: 922px;
+ clear: both;
+ color: #ffffff;
+ margin: 5px 0px 0px 0px;
+height:120px;
+ 
+}
+.clear { clear: both; background: none; }

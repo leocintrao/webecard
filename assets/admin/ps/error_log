@@ -1,0 +1,23 @@
+[02-May-2014 14:46:48 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'CURL can't connect: Unknown SSL protocol error in connection to ws.pagseguro.uol.com.br:443 ' in /home/leolondo/public_html/testing/ps/source/PagSeguroLibrary/utils/PagSeguroHttpConnection.class.php:120
+Stack trace:
+#0 /home/leolondo/public_html/testing/ps/source/PagSeguroLibrary/utils/PagSeguroHttpConnection.class.php(64): PagSeguroHttpConnection->curlConnection('GET', 'https://ws.pags...', 20, 'UTF-8', NULL)
+#1 /home/leolondo/public_html/testing/ps/source/PagSeguroLibrary/service/PagSeguroTransactionSearchService.class.php(88): PagSeguroHttpConnection->get('https://ws.pags...', 20, 'UTF-8')
+#2 /home/leolondo/public_html/testing/ps/checkpagseguro.php(20): PagSeguroTransactionSearchService::searchByCode(Object(PagSeguroAccountCredentials), '018D23B6-D873-4...')
+#3 {main}
+  thrown in /home/leolondo/public_html/testing/ps/source/PagSeguroLibrary/utils/PagSeguroHttpConnection.class.php on line 120
+[02-May-2014 14:54:57 UTC] PHP Warning:  require_once(../PagSeguroLibrary/PagSeguroLibrary.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/leolondo/public_html/testing/ps/checkpagseguro.php on line 2
+[02-May-2014 14:54:57 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../PagSeguroLibrary/PagSeguroLibrary.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/leolondo/public_html/testing/ps/checkpagseguro.php on line 2
+[02-May-2014 14:57:59 UTC] PHP Fatal error:  Call to a member function getStatus() on a non-object in /home/leolondo/public_html/testing/ps/notificacao.php on line 29
+[02-May-2014 15:22:37 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/leolondo/public_html/testing/ps/checkpagseguro.php on line 29
+[05-May-2014 16:53:06 UTC] PHP Fatal error:  Call to a member function getValue() on a non-object in /home/leolondo/public_html/testing/assets/admin/ps/notificacao.php on line 47
+[05-May-2014 16:59:54 UTC] PHP Fatal error:  Call to a member function getValue() on a non-object in /home/leolondo/public_html/testing/assets/admin/ps/notificacao.php on line 60
+[05-May-2014 17:03:54 UTC] PHP Fatal error:  Call to a member function getValue() on a non-object in /home/leolondo/public_html/testing/assets/admin/ps/notificacao.php on line 82
+[05-May-2014 17:07:14 UTC] PHP Fatal error:  Call to a member function getValue() on a non-object in /home/leolondo/public_html/testing/assets/admin/ps/notificacao.php on line 61
+[05-May-2014 17:10:35 UTC] PHP Fatal error:  Call to a member function getValue() on a non-object in /home/leolondo/public_html/testing/assets/admin/ps/notificacao.php on line 61
+[05-May-2014 17:13:12 UTC] PHP Fatal error:  Call to a member function getValue() on a non-object in /home/leolondo/public_html/testing/assets/admin/ps/notificacao.php on line 50
+[05-May-2014 17:17:46 UTC] PHP Fatal error:  Call to a member function getValue() on a non-object in /home/leolondo/public_html/testing/assets/admin/ps/notificacao.php on line 61
+[05-May-2014 17:28:50 UTC] PHP Fatal error:  Call to a member function getTransactions() on a non-object in /home/leolondo/public_html/testing/assets/admin/ps/notificacao.php on line 48
+[05-May-2014 17:38:21 UTC] PHP Warning:  require_once(../PagSeguroLibrary/PagSeguroLibrary.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/leolondo/public_html/testing/assets/admin/ps/searchTransactionByCode2.php on line 21
+[05-May-2014 17:38:21 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../PagSeguroLibrary/PagSeguroLibrary.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/leolondo/public_html/testing/assets/admin/ps/searchTransactionByCode2.php on line 21
+[05-May-2014 17:43:00 UTC] PHP Catchable fatal error:  Object of class PagSeguroTransactionStatus could not be converted to string in /home/leolondo/public_html/testing/assets/admin/ps/notificacao.php on line 43
+[05-May-2014 17:44:04 UTC] PHP Fatal error:  Call to a member function getStatus() on a non-object in /home/leolondo/public_html/testing/assets/admin/ps/notificacao.php on line 29

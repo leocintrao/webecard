@@ -1,0 +1,25 @@
+{2014/05/04 19:54:28} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'REF123_leo',
+  'SenderEmail' => 'comprador@s2it.com.br',
+)) - begin 
+{2014/05/04 19:54:28} [Error] Exception: CURL can't connect: Could not resolve host: ws.pagseguro.uol.com.br 
+{2014/05/04 19:54:31} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'REF123_leo',
+  'SenderEmail' => 'comprador@s2it.com.br',
+)) - begin 
+{2014/05/04 19:54:31} [Error] Exception: CURL can't connect: Could not resolve host: ws.pagseguro.uol.com.br 
+{2014/05/04 19:54:31} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'REF123_leo',
+  'SenderEmail' => 'comprador@s2it.com.br',
+)) - begin 
+{2014/05/04 19:54:31} [Error] Exception: CURL can't connect: Could not resolve host: ws.pagseguro.uol.com.br 
+{2014/05/04 20:13:23} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'REF123_leo',
+  'SenderEmail' => 'comprador@s2it.com.br',
+)) - begin 
+{2014/05/04 20:13:23} [Error] Exception: CURL can't connect: Could not resolve host: ws.pagseguro.uol.com.br 
+{2014/05/04 20:13:25} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'REF123_leo',
+  'SenderEmail' => 'comprador@s2it.com.br',
+)) - begin 
+{2014/05/04 20:13:25} [Error] Exception: CURL can't connect: Could not resolve host: ws.pagseguro.uol.com.br 

@@ -1,0 +1,123 @@
+{2014/05/04 19:54:28} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'REF123_leo',
+  'SenderEmail' => 'comprador@s2it.com.br',
+)) - begin 
+{2014/05/04 19:54:28} [Error] Exception: CURL can't connect: Could not resolve host: ws.pagseguro.uol.com.br 
+{2014/05/04 19:54:31} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'REF123_leo',
+  'SenderEmail' => 'comprador@s2it.com.br',
+)) - begin 
+{2014/05/04 19:54:31} [Error] Exception: CURL can't connect: Could not resolve host: ws.pagseguro.uol.com.br 
+{2014/05/04 19:54:31} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'REF123_leo',
+  'SenderEmail' => 'comprador@s2it.com.br',
+)) - begin 
+{2014/05/04 19:54:31} [Error] Exception: CURL can't connect: Could not resolve host: ws.pagseguro.uol.com.br 
+{2014/05/04 20:13:23} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'REF123_leo',
+  'SenderEmail' => 'comprador@s2it.com.br',
+)) - begin 
+{2014/05/04 20:13:23} [Error] Exception: CURL can't connect: Could not resolve host: ws.pagseguro.uol.com.br 
+{2014/05/04 20:13:25} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'REF123_leo',
+  'SenderEmail' => 'comprador@s2it.com.br',
+)) - begin 
+{2014/05/04 20:13:25} [Error] Exception: CURL can't connect: Could not resolve host: ws.pagseguro.uol.com.br 
+{2014/05/05 16:22:23} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '778505679065',
+  'SenderEmail' => 'null',
+)) - begin 
+{2014/05/05 16:22:26} [Error] Exception: CURL can't connect: Unknown SSL protocol error in connection to ws.pagseguro.uol.com.br:443  
+{2014/05/05 16:22:31} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '778505679065',
+  'SenderEmail' => 'null',
+)) - begin 
+{2014/05/05 16:22:32} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '778505679065',
+  'SenderEmail' => 'null',
+)) - error [HTTP 400] - BAD_REQUEST 0 [11029] - Item amount invalid pattern: 10,00. Must fit the patern: \d+.\d{2}  
+{2014/05/05 16:22:39} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '778505679065',
+  'SenderEmail' => 'null',
+)) - begin 
+{2014/05/05 16:22:40} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '778505679065',
+  'SenderEmail' => 'null',
+)) - error [HTTP 400] - BAD_REQUEST 0 [11029] - Item amount invalid pattern: 10,00. Must fit the patern: \d+.\d{2}  
+{2014/05/05 16:24:15} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - begin 
+{2014/05/05 16:24:15} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - end {1}529DBD185252519CC4111F827C081550 
+{2014/05/05 16:29:02} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - begin 
+{2014/05/05 16:29:03} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - error [HTTP 400] - BAD_REQUEST 0 [11033] - Item description is required.1 [11028] - Item amount is required. (e.g. "12.00") 
+{2014/05/05 16:29:13} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - begin 
+{2014/05/05 16:29:14} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - error [HTTP 400] - BAD_REQUEST 0 [11028] - Item amount is required. (e.g. "12.00")1 [11033] - Item description is required. 
+{2014/05/05 16:29:45} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - begin 
+{2014/05/05 16:29:45} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - error [HTTP 400] - BAD_REQUEST 0 [11028] - Item amount is required. (e.g. "12.00")1 [11033] - Item description is required. 
+{2014/05/05 16:29:48} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - begin 
+{2014/05/05 16:29:49} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - error [HTTP 400] - BAD_REQUEST 0 [11033] - Item description is required.1 [11028] - Item amount is required. (e.g. "12.00") 
+{2014/05/05 16:30:10} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - begin 
+{2014/05/05 16:30:14} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - error [HTTP 400] - BAD_REQUEST 0 [11029] - Item amount invalid pattern: 10,00. Must fit the patern: \d+.\d{2}  
+{2014/05/05 16:30:20} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - begin 
+{2014/05/05 16:30:21} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - error [HTTP 400] - BAD_REQUEST 0 [11029] - Item amount invalid pattern: 10,00. Must fit the patern: \d+.\d{2}  
+{2014/05/05 16:33:38} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - begin 
+{2014/05/05 16:33:38} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - error [HTTP 400] - BAD_REQUEST 0 [11029] - Item amount invalid pattern: $v. Must fit the patern: \d+.\d{2}  
+{2014/05/05 17:10:54} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 'reflele',
+  'SenderEmail' => 'null',
+)) - begin 
+{2014/05/05 17:11:06} [Error] Exception: CURL can't connect: Could not resolve host: ws.pagseguro.uol.com.br 
+{2014/05/05 19:06:34} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '122140370289',
+  'SenderEmail' => 'null',
+)) - begin 
+{2014/05/05 19:06:35} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '122140370289',
+  'SenderEmail' => 'null',
+)) - end {1}F326F74006068E7FF4CC0F931557FDD4 
