@@ -47,7 +47,7 @@ Class Model_sorteios Extends CI_Model {
 
 	// Último resultado da promoção - Portugues
 
-	public function ult_result_br() {
+	public function ult_result_br() { 
 
 		$my_res = "";
 
